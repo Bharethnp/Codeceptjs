@@ -1,0 +1,305 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-05-26T12:42:16.468Z",
+    "end": "2020-05-26T12:42:25.652Z",
+    "duration": 9184,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "875a36e7-178d-4031-a98d-85d1d956700c",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9726b5a4-f127-4b9e-a889-28478f3d981c",
+          "title": "Launch",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite",
+              "fullTitle": "Launch \"before all\" hook: codeceptjs.beforeSuite",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "762a4a9b-25d5-44fe-8539-99331002580b",
+              "parentUUID": "9726b5a4-f127-4b9e-a889-28478f3d981c",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before",
+              "fullTitle": "Launch \"before each\" hook: codeceptjs.before",
+              "timedOut": false,
+              "duration": 1982,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "c162a545-56c5-4811-8713-c2085aea2a0a",
+              "parentUUID": "9726b5a4-f127-4b9e-a889-28478f3d981c",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite",
+              "fullTitle": "Launch \"after all\" hook: codeceptjs.afterSuite",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "48f914bb-5a1d-4a29-a021-dd133c03ce70",
+              "parentUUID": "9726b5a4-f127-4b9e-a889-28478f3d981c",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: codeceptjs.after",
+              "fullTitle": "Launch \"after each\" hook: codeceptjs.after",
+              "timedOut": false,
+              "duration": 89,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "f1f83da4-2bdc-44fd-b453-9f7599a243f5",
+              "parentUUID": "9726b5a4-f127-4b9e-a889-28478f3d981c",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Launch google chrome",
+              "fullTitle": "Launch Launch google chrome",
+              "timedOut": false,
+              "duration": 2284,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "runSteps(child.steps)",
+              "err": {},
+              "uuid": "0256764c-7fe8-4b81-9bf4-9152f721a570",
+              "parentUUID": "9726b5a4-f127-4b9e-a889-28478f3d981c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0256764c-7fe8-4b81-9bf4-9152f721a570"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2284,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        },
+        {
+          "uuid": "e5e3ab29-d65b-4a87-9e96-97d1afb815c4",
+          "title": "Launch",
+          "fullFile": "/Users/bhareth/automation2/puppeteer-codeceptjs/launch_test.js",
+          "file": "/launch_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite",
+              "fullTitle": "Launch \"before all\" hook: codeceptjs.beforeSuite",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "ac9d2733-7cb4-4350-89ca-3df4e539c74f",
+              "parentUUID": "e5e3ab29-d65b-4a87-9e96-97d1afb815c4",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before",
+              "fullTitle": "Launch \"before each\" hook: codeceptjs.before",
+              "timedOut": false,
+              "duration": 887,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "27aee4b3-ec8e-4da8-a29c-d1d836844fd3",
+              "parentUUID": "e5e3ab29-d65b-4a87-9e96-97d1afb815c4",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: Before",
+              "fullTitle": "Launch \"before each\" hook: Before",
+              "timedOut": false,
+              "duration": 1394,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I.amOnPage(\"https://www.google.com\");",
+              "err": {},
+              "uuid": "4ea49dad-4b6d-4d7b-b758-1fea4e7907fb",
+              "parentUUID": "e5e3ab29-d65b-4a87-9e96-97d1afb815c4",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite",
+              "fullTitle": "Launch \"after all\" hook: codeceptjs.afterSuite",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "91aa7000-8586-4557-b648-331d5b7abe3c",
+              "parentUUID": "e5e3ab29-d65b-4a87-9e96-97d1afb815c4",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs",
+              "fullTitle": "Launch \"after each\" hook: finalize codeceptjs",
+              "timedOut": false,
+              "duration": 84,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "fd0cf082-b699-49f7-880d-48877c96928c",
+              "parentUUID": "e5e3ab29-d65b-4a87-9e96-97d1afb815c4",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "test google page",
+              "fullTitle": "Launch: test google page",
+              "timedOut": false,
+              "duration": 2453,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I.waitForElement(\"#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input\");\n    I.saveScreenshot(\"save.jpg\");\n    I.fillField(\"#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input\",\"Favicon\");\n    I.pressKey(\"Enter\");\n    I.waitForElement(\"#rso > div:nth-child(1) > div > div.r > a > h3\");\n    I.moveCursorTo(\"#rso > div:nth-child(1) > div > div.r > a > h3\");\n    I.click(\"#rso > div:nth-child(1) > div > div.r > a > h3\");\n    I.saveScreenshot(\"save1.jpg\");",
+              "err": {},
+              "uuid": "0d32b41c-2f94-47c6-bcb3-7dfe2fe35d54",
+              "parentUUID": "e5e3ab29-d65b-4a87-9e96-97d1afb815c4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0d32b41c-2f94-47c6-bcb3-7dfe2fe35d54"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2453,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {},
+      "version": "5.1.0"
+    }
+  }
+}

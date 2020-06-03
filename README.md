@@ -10,7 +10,7 @@ Commands to run with mochawesome: npx codeceptjs run --reporter mochawesome
 
 Commands to install BDD : npx codeceptjs gherkin:init
 
-Commands to run BDD : npx codceptjs  run
+Commands to run BDD : npx codeceptjs run
 
-Commands to run BDD in parallel Threads : npx codceptjs  run-workers 2
+Commands to run BDD in parallel Threads : npx codeceptjs run-workers 2
 
